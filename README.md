@@ -1,6 +1,6 @@
 # GNEM: A Generic One-to-Set Neural Entity Matching Framework
 
-###Training
+### Training
 ```
 python train.py --seed 28 --log_freq 5 --lr 0.0001 --embed_lr 0.00002 --epochs 10 --batch_size 2 \
                 --tableA_path data/abt_buy/tableA.csv --tableB_path data/abt_buy/tableB.csv \
