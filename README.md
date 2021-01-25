@@ -10,7 +10,7 @@ python train.py --seed 28 --log_freq 5 --lr 0.0001 --embed_lr 0.00002 --epochs 1
 ```
 
 ### Testing
-Pre-trained model can be found 
+Pre-trained model can be found [here](https://drive.google.com/file/d/1E_jdfXHUXJTIzqFT2bF1vGHIKgGbcAqV/view?usp=sharing)
 ```
 python test.py  --gcn_layer 1 --tableA_path data/abt_buy/tableA.csv --tableB_path data/abt_buy/tableB.csv \
                 --train_path data/abt_buy/train.csv --test_path data/abt_buy/test.csv \
